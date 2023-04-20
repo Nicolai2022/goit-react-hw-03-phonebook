@@ -28,7 +28,7 @@ export const FormBtn = styled.button`
 
   &:hover {
     background-color: #a1e4e0;
-    color: #f1a3f4;
+    color: #f2a3f4;
   }
 `;
 

@@ -27,6 +27,6 @@ export const SubTitle = styled.h2`
 `;
 
 export const Input = styled.input`
-background-color: #a2e4e0;
+background-color: #a3e4e0;
 `;
 

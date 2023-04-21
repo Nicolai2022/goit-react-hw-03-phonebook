@@ -26,7 +26,7 @@ export const DeleteItemBtn = styled.button`
   cursor: pointer;
 
   &:hover {
-    background-color: #c2f010;
+    background-color: #c4f010;
     color: #010101;
   }
 `;

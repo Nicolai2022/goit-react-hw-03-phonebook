@@ -21,7 +21,7 @@ export const DeleteItemBtn = styled.button`
   font-weight: 500;
   border: 1px solid #000;
   border-radius: 8px;
-  background-color: #c9f1c7;
+  background-color: #c7f5c1;
   color: #000;
   cursor: pointer;
 

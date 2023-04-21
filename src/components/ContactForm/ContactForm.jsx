@@ -9,18 +9,18 @@ class ContactForm extends Component {
     this.setState({ name: '', number: '' });
   };
 
-  // onInputChange = e => {
-  //   const { name, value } = e.currentTarget;
-  //   this.setState({ [name]: value });
-  // };
+  onInputChange = e => {
+    const { name, value } = e.currentTarget;
+    this.setState({ [name]: value });
+  };
 
-  // onHandleSubmit = e => {
-  //   e.preventDefault();
+  onHandleSubmit = e => {
+    e.preventDefault();
 
-  //   this.props.onSubmit(this.state);
+    this.props.onSubmit(this.state);
 
-  //   this.resetForm();
-  // };
+    this.resetForm();
+  };
 
   render() {
     const { name, number } = this.state;

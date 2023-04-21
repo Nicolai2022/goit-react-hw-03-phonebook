@@ -7,34 +7,34 @@ import {
   ContactNotification,
 } from 'components/ContactList/ContactList.styled';
 
-class ContactList extends React.Component {
-  render() {
-    const { contacts, getFilteredContacts, onContactDelete } = this.props;
+// class ContactList extends React.Component {
+//   render() {
+//     const { contacts, getFilteredContacts, onContactDelete } = this.props;
 
-    const filteredContacts = getFilteredContacts();
+//     const filteredContacts = getFilteredContacts();
 
-    return (
-      <ContactListContainer>
-        {contacts.length !== 0 ? (
-          <ContactsList>
-            {filteredContacts.map(({ id, name, number }) => (
-              <ContactListItem
-                key={id}
-                name={name}
-                number={number}
-                onContactDelete={() => onContactDelete(id)}
-              />
-            ))}
-          </ContactsList>
-        ) : (
-          <ContactNotification>
-            You don't have any contacts in your phonebook
-          </ContactNotification>
-        )}
-      </ContactListContainer>
-    );
-  }
-}
+//     return (
+//       <ContactListContainer>
+//         {contacts.length !== 0 ? (
+//           <ContactsList>
+//             {filteredContacts.map(({ id, name, number }) => (
+//               <ContactListItem
+//                 key={id}
+//                 name={name}
+//                 number={number}
+//                 onContactDelete={() => onContactDelete(id)}
+//               />
+//             ))}
+//           </ContactsList>
+//         ) : (
+//           <ContactNotification>
+//             You don't have any contacts in your phonebook
+//           </ContactNotification>
+//         )}
+//       </ContactListContainer>
+//     );
+//   }
+// }
 
 ContactList.propTypes = {
   contacts: PropTypes.arrayOf(

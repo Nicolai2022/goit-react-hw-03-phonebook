@@ -22,7 +22,7 @@ export const Label = styled.label`
 export const FormBtn = styled.button`
   border: 1px solid #000;
   border-radius: 5px;
-  background-color: #c2f5c4;
+  background-color: #c6f5c4;
   color: #000;
   cursor: pointer;
 

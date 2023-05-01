@@ -5,14 +5,14 @@ import { Form, Label, FormBtn } from './ContactForm.styled';
 class ContactForm extends Component {
   state = { name: '', number: '' };
 
-  // resetForm = () => {
-  //   this.setState({ name: '', number: '' });
-  // };
+  resetForm = () => {
+    this.setState({ name: '', number: '' });
+  };
 
-  // onInputChange = e => {
-  //   const { name, value } = e.currentTarget;
-  //   this.setState({ [name]: value });
-  // };
+  onInputChange = e => {
+    const { name, value } = e.currentTarget;
+    this.setState({ [name]: value });
+  };
 
   onHandleSubmit = e => {
     e.preventDefault();
